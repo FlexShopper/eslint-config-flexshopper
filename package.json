@@ -5,15 +5,15 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flexshopper/eslint-config-flexshopper.git"
+    "url": "git+https://github.com/flexshopper/eslint-config.git"
   },
   "author": "Italo A. Casas <me@italoacasas.com> (http://italoacasas.com/)",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/flexshopper/eslint-config-flexshopper/issues"
+    "url": "https://github.com/flexshopper/eslint-config/issues"
   },
-  "homepage": "https://github.com/flexshopper/eslint-config-flexshopper#readme",
-  "dependencies": {
+  "homepage": "https://github.com/flexshopper/eslint-config#readme",
+  "peerDependencies": {
     "eslint-config-yandex": "^1.0.5"
     },
     "keywords": [
