@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-flexshopper",
+  "version": "1.0.0",
+  "description": "ESLint FlexShopper configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flexshopper/eslint-config-flexshopper.git"
+  },
+  "author": "Italo A. Casas <me@italoacasas.com> (http://italoacasas.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flexshopper/eslint-config-flexshopper/issues"
+  },
+  "homepage": "https://github.com/flexshopper/eslint-config-flexshopper#readme",
+  "dependencies": {
+    "eslint-config-yandex": "^1.0.5"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ]
+}
