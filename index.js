@@ -69,8 +69,8 @@ module.exports = {
             'single'
         ],
         'semi': [
-            0,
-            'never'
+            2,
+            'always'
         ],
         'strict': 2,
         'valid-typeof': 2,
