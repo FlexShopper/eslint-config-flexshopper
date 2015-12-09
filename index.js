@@ -7,7 +7,8 @@ module.exports = {
         'browser': true,
         'builtin': true,
         'jquery': true,
-        'prototypejs': true
+        'prototypejs': true,
+        'es6': true
     },
     'rules': {
         'max-len': [2, 100, 4, { 'ignoreUrls': true }],
