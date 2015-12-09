@@ -57,6 +57,7 @@ module.exports = {
         'no-shadow': 0,
         'no-unused-vars': 2,
         'no-with': 2,
+        'no-var': 1,
         'vars-on-top': 1,
         'no-inner-declarations': 1,
         'guard-for-in': 1,
@@ -92,4 +93,7 @@ module.exports = {
         'expect': false,
         'spyOn': false
     },
+    'ecmaFeatures': {
+        'blockBindings': true
+    }
 }
