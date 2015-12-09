@@ -62,7 +62,7 @@ module.exports = {
         'vars-on-top': 1,
         'no-inner-declarations': 1,
         'guard-for-in': 1,
-        'prefer-const': 2,
+        'prefer-const': 1,
         'object-curly-spacing': [2, 'always'],
         'quotes': [
             2,
