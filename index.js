@@ -50,7 +50,6 @@ module.exports = {
         'no-loop-func': 2,
         'no-multi-str': 2,
         'no-new': 2,
-        'no-plusplus': 2,
         'no-proto': 2,
         'no-script-url': 2,
         'no-sequences': 2,
