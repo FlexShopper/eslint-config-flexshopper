@@ -11,7 +11,7 @@ module.exports = {
         'es6': true
     },
     'rules': {
-        'max-len': [2, 100, 4, { {"ignoreComments": true, "ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\("}],
+        'max-len': [2, 100, 4, {"ignoreComments": true, "ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\("}],
         'block-scoped-var': 2,
         'camelcase': 2,
         'curly': [
