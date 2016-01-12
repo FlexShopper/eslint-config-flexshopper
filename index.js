@@ -32,7 +32,9 @@ module.exports = {
             2,
             'never'
         ],
+        'strict': 2,
         'new-cap': 2,
+        'guard-for-in': 2,
         'no-bitwise': 2,
         'no-caller': 2,
         'no-cond-assign': [
