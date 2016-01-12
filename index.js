@@ -32,7 +32,6 @@ module.exports = {
             2,
             'never'
         ],
-        'guard-for-in': 2,
         'new-cap': 2,
         'no-bitwise': 2,
         'no-caller': 2,
@@ -71,7 +70,6 @@ module.exports = {
             2,
             'always'
         ],
-        'strict': 2,
         'valid-typeof': 2,
         'wrap-iife': [
             2,
