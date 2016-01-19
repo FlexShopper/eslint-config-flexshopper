@@ -15,9 +15,12 @@
   "homepage": "https://github.com/flexshopper/eslint-config#readme",
   "dependencies": {
     "eslint-config-yandex": "^1.0.5"
-    },
-    "keywords": [
-        "eslint",
-        "eslintconfig"
-    ]
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
 }
