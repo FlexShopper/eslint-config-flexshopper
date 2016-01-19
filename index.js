@@ -30,7 +30,7 @@ module.exports = {
         ],
         'strict': [
             2,
-            'never'
+            'function'
         ],
         'new-cap': 2,
         'guard-for-in': 2,
