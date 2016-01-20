@@ -1,6 +1,6 @@
 ## Usage
 
-- `npm install --save-dev eslint eslint-config-flexshopper`
+- `npm install --save-dev eslint https://github.com/flexshopper/eslint-config`
 - Then, extend the config in the `.eslintrc` file
 
 ### Backend projects
