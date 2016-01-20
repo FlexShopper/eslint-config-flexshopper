@@ -14,7 +14,6 @@
   },
   "homepage": "https://github.com/flexshopper/eslint-config#readme",
   "dependencies": {
-    "babel-eslint": "^5.0.0-beta6",
     "eslint": "^1.10.3",
     "eslint-config-yandex": "^1.0.5"
   },
