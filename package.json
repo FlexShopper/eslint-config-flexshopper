@@ -13,6 +13,10 @@
     "url": "https://github.com/flexshopper/eslint-config/issues"
   },
   "homepage": "https://github.com/flexshopper/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-yandex": "^1.0.5"
+  },
   "dependencies": {
     "eslint": "^1.10.3",
     "eslint-config-yandex": "^1.0.5"
