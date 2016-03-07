@@ -7,5 +7,8 @@ module.exports = {
     'globals': {
         'angular': true,
     },
+    'rules': {
+        'strict': 0
+    },
     'parser': 'babel-eslint'
 };
