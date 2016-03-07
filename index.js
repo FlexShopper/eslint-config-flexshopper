@@ -1,18 +1,14 @@
 module.exports = {
     'extends': 'yandex',
     'env': {
-        'jasmine': true,
         'node': true,
         'mocha': true,
         'browser': true,
-        'builtin': true,
-        'jquery': true,
-        'prototypejs': true,
-        'es6': true
+        'builtin': true
+        'prototypejs': true
     },
     'rules': {
         'max-len': [2, 100, 4, { 'ignoreComments': true, 'ignoreUrls': true, 'ignorePattern': '\/.*\/' }],
-        'block-scoped-var': 2,
         'camelcase': 2,
         'curly': [
             2,
@@ -57,10 +53,8 @@ module.exports = {
         'no-shadow': 0,
         'no-unused-vars': [2, {'vars': 'all', 'varsIgnorePattern': "[$rootScope]"}],
         'no-with': 2,
-        'no-var': 1,
         'vars-on-top': 1,
         'no-inner-declarations': 1,
-        'prefer-const': 2,
         'object-curly-spacing': [2, 'always'],
         'quotes': [
             2,
@@ -77,7 +71,6 @@ module.exports = {
         ]
     },
     'globals': {
-        'angular': true,
         'define': false,
         'require': true,
         'exports': false,
@@ -91,8 +84,5 @@ module.exports = {
         'inject': false,
         'expect': false,
         'spyOn': false
-    },
-    'ecmaFeatures': {
-        'blockBindings': true
     }
 };
