@@ -6,6 +6,6 @@ module.exports = {
     },
     'globals': {
         'angular': true,
-    }
+    },
     'parser': 'babel-eslint'
 };
