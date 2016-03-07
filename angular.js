@@ -1,10 +1,11 @@
 module.exports = {
-    'extends': 'flexshopper/index.js',
+    'extends': 'flexshopper/es6.js',
     'env': {
-        'protractor': true
+        'protractor': true,
+        'jasmine': true
     },
-    'rules': {
-        'strict': [2, 'never']
-    },
+    'globals': {
+        'angular': true,
+    }
     'parser': 'babel-eslint'
 };
