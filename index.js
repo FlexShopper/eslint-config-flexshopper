@@ -26,7 +26,7 @@ module.exports = {
         ],
         'strict': [
             2,
-            'function'
+            'global'
         ],
         'new-cap': 2,
         'guard-for-in': 2,
@@ -51,7 +51,7 @@ module.exports = {
         'no-sequences': 2,
         'no-undef': 2,
         'no-shadow': 0,
-        'no-unused-vars': [2, {'vars': 'all', 'varsIgnorePattern': "[$rootScope]"}],
+        'no-unused-vars': [2, { 'vars': 'all', 'varsIgnorePattern': '[$rootScope]' }],
         'no-with': 2,
         'vars-on-top': 1,
         'no-inner-declarations': 1,
