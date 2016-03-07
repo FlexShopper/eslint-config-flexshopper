@@ -4,7 +4,7 @@ module.exports = {
         'node': true,
         'mocha': true,
         'browser': true,
-        'builtin': true
+        'builtin': true,
         'prototypejs': true
     },
     'rules': {
