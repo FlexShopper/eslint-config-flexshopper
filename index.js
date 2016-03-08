@@ -26,7 +26,7 @@ module.exports = {
         ],
         'strict': [
             2,
-            'global'
+            'function'
         ],
         'new-cap': 2,
         'guard-for-in': 2,

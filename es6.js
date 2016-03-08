@@ -4,7 +4,11 @@ module.exports = {
         'es6': true
     },
     'rules': {
-        'no-var': 2
+        'no-var': 2,
+        'strict': [
+            2,
+            'global'
+        ],
     },
     'parser': 'babel-eslint',
     'ecmaFeatures': {
