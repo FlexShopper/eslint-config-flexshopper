@@ -28,7 +28,7 @@ module.exports = {
             2,
             'function'
         ],
-        'new-cap': 2,
+        'new-cap': 1,
         'guard-for-in': 2,
         'no-bitwise': 2,
         'no-caller': 2,
