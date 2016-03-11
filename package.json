@@ -16,12 +16,12 @@
   "peerDependencies": {
     "eslint": "^1.10.3",
     "babel-eslint": "^5.0.0-beta6",
-    "eslint-config-yandex": "github:flexShopper/eslint-config-yandex"
+    "eslint-config-yandex": "github:flexShopper/eslint-config-yandex#1.1.0"
   },
   "dependencies": {
     "babel-eslint": "^5.0.0-beta6",
     "eslint": "^1.10.3",
-    "eslint-config-yandex": "github:flexShopper/eslint-config-yandex"
+    "eslint-config-yandex": "github:flexShopper/eslint-config-yandex#1.1.0"
   },
   "keywords": [
     "eslint",
