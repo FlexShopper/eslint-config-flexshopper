@@ -60,10 +60,7 @@ module.exports = {
             2,
             'single'
         ],
-        'semi': [
-            2,
-            'always'
-        ],
+        'semi': 2,
         'valid-typeof': 2,
         'wrap-iife': [
             2,
