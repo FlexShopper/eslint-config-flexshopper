@@ -1,6 +1,8 @@
 ## Usage
 
-- `npm install --save-dev eslint eslint-config-yandex https://github.com/flexshopper/eslint-config`
+If you are using `npm v3` you need to install `peerDependencies` manually.
+
+- `npm install --save-dev eslint eslint-config-yandex estraverse-fb flexshopper/eslint-config`
 - Then, extend the config in the `.eslintrc` file
 
 ### ES5 Projects
