@@ -1,5 +1,7 @@
 ## Usage
 
+First check what `npm version` do you have. `npm -v` in the console.
+
 If you are using `npm v3` you need to install `peerDependencies` manually.
 
 - `npm install --save-dev eslint eslint-config-yandex estraverse-fb flexshopper/eslint-config`
