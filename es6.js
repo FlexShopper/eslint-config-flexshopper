@@ -7,7 +7,7 @@ module.exports = {
         'no-var': 2,
         'strict': [
             2,
-            'global'
+            'safe'
         ],
     },
     'parser': 'babel-eslint',
