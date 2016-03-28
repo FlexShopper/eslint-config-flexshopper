@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-flexshopper",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "ESLint FlexShopper configuration",
   "main": "index.js",
   "repository": {
