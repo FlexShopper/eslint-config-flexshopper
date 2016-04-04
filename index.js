@@ -51,7 +51,7 @@ module.exports = {
         'no-sequences': 2,
         'no-undef': 2,
         'no-shadow': 0,
-        'no-unused-vars': [2, { 'vars': 'all', 'varsIgnorePattern': '[$rootScope]' }],
+        'no-unused-vars': ['error', { 'vars': 'all', 'varsIgnorePattern': '[$rootScope]' }],
         'no-with': 2,
         'vars-on-top': 1,
         'no-inner-declarations': 1,
