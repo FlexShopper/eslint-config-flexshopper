@@ -2,7 +2,7 @@
   "name": "eslint-config-flexshopper",
   "description": "ESLint FlexShopper configuration",
   "version": "2.1.1",
-  "author": "Italo A. Casas <me@italoacasas.com> (http://italoacasas.com/)",
+  "author": "Italo A. Casas <italo.casas@flexshopper.com>",
   "bugs": {
     "url": "https://github.com/flexshopper/eslint-config-flexshopper/issues"
   },
@@ -33,6 +33,6 @@
     "url": "git+https://github.com/flexshopper/eslint-config-flexshopper.git"
   },
   "scripts": {
-    "fix": "fixpack"
+    "fix": "node_modules/.bin/fixpack"
   }
 }
