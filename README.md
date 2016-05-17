@@ -3,16 +3,16 @@
 [![Dev dependencies][david-dev-badge]][david-url]
 <!-- [![Build Status][travis-badge]][travis-url] -->
 
-[![NPM](https://nodei.co/npm/@flexshopper/eslint-config-flexshopper.png)](https://nodei.co/npm/eslint-config-flexshopper/)
+[![NPM](https://nodei.co/npm/@flexshopper/eslint-config-flexshopper.png)](https://nodei.co/npm/%40flexshopper%2Feslint-config-flexshopper)
 
-[npm-badge]: https://badge.fury.io/js/@flexshopper/eslint-config-flexshopper.svg
-[npm-url]: https://badge.fury.io/js/@flexshopper/eslint-config-flexshopper
-[travis-badge]: https://travis-ci.org/flexshopper/@flexshopper/eslint-config-flexshopper.svg?branch=master
-[travis-url]: https://travis-ci.org/flexshopper/@flexshopper/eslint-config-flexshopper
-[david-badge]: https://david-dm.org/flexshopper/@flexshopper/eslint-config-flexshopper.svg
-[david-dev-badge]: https://david-dm.org/flexshopper/@flexshopper/eslint-config-flexshopper/dev-status.svg
-[david-url]: https://david-dm.org/flexshopper/@flexshopper/eslint-config-flexshopper
-[david-dev-url]: https://david-dm.org/flexshopper/@flexshopper/eslint-config-flexshopper#info=devDependencies
+[npm-badge]: https://badge.fury.io/js/%40flexshopper%2Feslint-config-flexshopper.svg
+[npm-url]: https://badge.fury.io/js/eslint-config-flexshopper
+[travis-badge]: https://travis-ci.org/flexshopper/eslint-config-flexshopper.svg?branch=master
+[travis-url]: https://travis-ci.org/flexshopper/eslint-config-flexshopper
+[david-badge]: https://david-dm.org/flexshopper/eslint-config-flexshopper.svg
+[david-dev-badge]: https://david-dm.org/flexshopper/eslint-config-flexshopper/dev-status.svg
+[david-url]: https://david-dm.org/flexshopper/eslint-config-flexshopper
+[david-dev-url]: https://david-dm.org/flexshopper/eslint-config-flexshopper#info=devDependencies
 
 ## Usage
 
