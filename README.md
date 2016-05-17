@@ -1,7 +1,7 @@
 [![Npm Version][npm-badge]][npm-url]
-<!-- [![Build Status][travis-badge]][travis-url] -->
 [![Dependencies][david-badge]][david-url]
 [![Dev dependencies][david-dev-badge]][david-url]
+<!-- [![Build Status][travis-badge]][travis-url] -->
 
 [![NPM](https://nodei.co/npm/eslint-config-flexshopper.png)](https://nodei.co/npm/eslint-config-flexshopper/)
 
