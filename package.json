@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-flexshopper",
+  "name": "@flexshopper/eslint-config-flexshopper",
   "description": "ESLint FlexShopper configuration",
   "version": "2.1.1",
   "author": "Italo A. Casas <italo.casas@flexshopper.com>",
