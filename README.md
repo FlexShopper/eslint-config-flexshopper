@@ -1,5 +1,5 @@
 [![Npm Version][npm-badge]][npm-url]
-[![Build Status][travis-badge]][travis-url]
+<!-- [![Build Status][travis-badge]][travis-url] -->
 [![Dependencies][david-badge]][david-url]
 [![Dev dependencies][david-dev-badge]][david-url]
 
