@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': 'flexshopper/es6.js',
+    'extends': './es6.js',
     'env': {
         'protractor': true,
         'jasmine': true
