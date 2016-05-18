@@ -31,19 +31,19 @@ If you are using `npm v2` `peerDependencies` will be installed automatically
 ### ES5 Projects
 ```
 {
-    "extends": "flexshopper"
+    "extends": "@flexshopper/flexshopper"
 }
 ```
 ### ES6 Projects
 ```
 {
-    "extends": "flexshopper/es6"
+    "extends": "@flexshopper/flexshopper/es6"
 }
 ```
 ### Angular ES2015 projects
 ```
 {
-    "extends": "flexshopper/angular"
+    "extends": "@flexshopper/flexshopper/angular"
 }
 ```
 
