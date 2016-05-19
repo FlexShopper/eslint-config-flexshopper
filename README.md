@@ -16,7 +16,7 @@
 
 ## Usage
 
-- `npm install @flexshopper/eslint-config-flexshopper`
+- `npm install --save-dev @flexshopper/eslint-config-flexshopper`
 
 - check what `npm version` do you have. `npm -v` in the console.
 
