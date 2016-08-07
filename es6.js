@@ -12,6 +12,7 @@ module.exports = {
     },
     'rules': {
         'no-var': 2,
+        'guard-for-in': 1,
         'strict': [2, 'global'],
         'keyword-spacing': 2
     }
