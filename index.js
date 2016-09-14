@@ -18,7 +18,7 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
-        'max-len': ['error', 100],
+        'max-len': ['error', 120],
         'camelcase': ['error'],
         'eqeqeq': ['error', 'always'],
         'strict': ['error', 'safe'],
