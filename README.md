@@ -24,9 +24,17 @@ If you are using `npm v3` you need to install `peerDependencies` manually.
 
 - Then, extend the config in `package.json`:
 
+### Node Projects
 ```json
 "eslintConfig": {
     "extends": "@flexshopper/flexshopper"
+}
+```
+
+### Angular Projects
+```json
+"eslintConfig": {
+    "extends": "@flexshopper/flexshopper/angular"
 }
 ```
 
