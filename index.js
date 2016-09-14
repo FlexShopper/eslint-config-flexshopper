@@ -1,75 +1,57 @@
 module.exports = {
-    'extends': 'yandex',
     'env': {
+        'browser': true,
+        'es6': true,
         'node': true,
         'mocha': true,
-        'browser': true,
-        'builtin': true,
-        'prototypejs': true
+        'mongo': true
     },
+    'parserOption': {
+        'ecmaVersion': 6,
+        'ecmaFeatures': {
+            'globalReturn': true
+        }
+    },
+    'extends': 'eslint:recommended',
     'rules': {
-        'max-len': [2, 100, 4, { 'ignoreComments': true, 'ignoreUrls': true, 'ignorePattern': '\/.*\/' }],
-        'camelcase': 2,
-        'curly': [
-            2,
-            'all'
-        ],
-        'dot-notation': [
-            2,
-            {
-                'allowKeywords': true
-            }
-        ],
-        'eqeqeq': [
-            2,
-            'allow-null'
-        ],
-        'strict': [
-            2,
-            'function'
-        ],
-        'new-cap': 1,
-        'guard-for-in': 2,
-        'no-bitwise': 2,
-        'no-caller': 2,
-        'no-cond-assign': [
-            2,
-            'except-parens'
-        ],
-        'no-debugger': 2,
-        'space-before-function-paren': 0,
-        'no-empty': 2,
-        'no-eval': 2,
-        'no-extend-native': 2,
-        'no-irregular-whitespace': 2,
-        'no-iterator': 2,
-        'no-loop-func': 2,
-        'no-multi-str': 2,
-        'no-new': 2,
-        'no-proto': 2,
-        'no-script-url': 2,
-        'no-sequences': 2,
-        'no-undef': 2,
-        'no-shadow': 0,
+        'indent': [ 'error', 4],
+        'linebreak-style': ['error', 'unix'],
+        'quotes': ['error', 'single'],
+        'semi': ['error', 'always'],
+        'max-len': ['error', 120],
+        'camelcase': ['error'],
+        'eqeqeq': ['error', 'always'],
+        'strict': ['error', 'safe'],
+        'new-cap': ['error'],
+        'no-bitwise': ['warn'],
+        'no-caller': ['error'],
+        'no-cond-assign': ['error', 'except-parens'],
+        'no-debugger': ['error'],
+        'space-before-function-paren': ['error'],
+        'no-empty': ['error'],
+        'no-eval': ['error'],
+        'no-extend-native': ['error'],
+        'no-irregular-whitespace': ['error'],
+        'no-iterator': ['error'],
+        'no-multi-str': ['error'],
+        'no-new': ['error'],
+        'no-proto': ['error'],
+        'no-script-url': ['error'],
+        'no-sequences': ['error'],
+        'no-undef': ['error'],
         'no-unused-vars': ['error', { 'vars': 'all', 'varsIgnorePattern': '[$rootScope]' }],
-        'no-with': 2,
-        'vars-on-top': 1,
-        'no-inner-declarations': 1,
-        'object-curly-spacing': [2, 'always'],
-        'quotes': [
-            2,
-            'single'
-        ],
-        'semi': 2,
-        'valid-typeof': 2,
-        'wrap-iife': [
-            2,
-            'inside'
-        ]
+        'no-with': ['error'],
+        'no-inner-declarations': ['warn'],
+        'vars-on-top': ['warn'],
+        'object-curly-spacing': ['error', 'always'],
+        'valid-typeof': ['error'],
+        'keyword-spacing': ['error', { 'before': true, 'after': true }],
+        'no-console': ['warn'],
+        'eol-last': ['error']
     },
     'globals': {
         'define': false,
-        'require': true,
+        'require': false,
         'exports': false,
         'module': false,
         'describe': false,
@@ -79,7 +61,6 @@ module.exports = {
         'afterEach': false,
         'it': false,
         'inject': false,
-        'expect': false,
-        'spyOn': false
+        'expect': false
     }
 };

@@ -18,31 +18,22 @@
 
 - `npm install --save-dev @flexshopper/eslint-config-flexshopper`
 
-- check what `npm version` do you have. `npm -v` in the console.
+- check what **npm version** do you have. `npm -v` in the console.
 
-If you are using `npm v3` you need to install `peerDependencies` manually.
+If you are using **npm v3** you need to install **peerDependencies** manually.
 
-- `npm install --save-dev eslint eslint-config-yandex estraverse-fb`
+- Then, extend the config in `package.json`:
 
-If you are using `npm v2` `peerDependencies` will be installed automatically
-
-- Then, extend the config in the `.eslintrc` file
-
-### ES5 Projects
-```
-{
+### Node Projects
+```json
+"eslintConfig": {
     "extends": "@flexshopper/flexshopper"
 }
 ```
-### ES6 Projects
-```
-{
-    "extends": "@flexshopper/flexshopper/es6"
-}
-```
-### Angular ES2015 projects
-```
-{
+
+### Angular Projects
+```json
+"eslintConfig": {
     "extends": "@flexshopper/flexshopper/angular"
 }
 ```

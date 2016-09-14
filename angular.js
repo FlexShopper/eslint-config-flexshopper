@@ -1,14 +1,22 @@
 module.exports = {
-    'extends': './es6.js',
+    'extends': './index.js',
     'env': {
         'protractor': true,
-        'jasmine': true
+        'jasmine': true,
+        'commonjs': true
     },
     'globals': {
         'angular': true,
     },
     'rules': {
-        'strict': 0
+        'strict': ['off']
     },
-    'parser': 'babel-eslint'
-};
+    'parser': 'babel-eslint',
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    'globals': {
+        'spyOn': false,
+        'angular': false
+    }
+}
