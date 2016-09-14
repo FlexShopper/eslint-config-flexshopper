@@ -18,9 +18,9 @@
 
 - `npm install --save-dev @flexshopper/eslint-config-flexshopper`
 
-- check what `npm version` do you have. `npm -v` in the console.
+- check what **npm version** do you have. `npm -v` in the console.
 
-If you are using `npm v3` you need to install `peerDependencies` manually.
+If you are using **npm v3** you need to install **peerDependencies** manually.
 
 - Then, extend the config in `package.json`:
 
