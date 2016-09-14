@@ -33,7 +33,6 @@ module.exports = {
         'no-extend-native': ['error'],
         'no-irregular-whitespace': ['error'],
         'no-iterator': ['error'],
-        'no-loop-func': ['error'],
         'no-multi-str': ['error'],
         'no-new': ['error'],
         'no-proto': ['error'],
