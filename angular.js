@@ -3,8 +3,7 @@ module.exports = {
     'env': {
         'protractor': true,
         'jasmine': true,
-        'commonjs': true,
-        'mocha': true
+        'commonjs': true
     },
     'globals': {
         'angular': true,
