@@ -19,7 +19,7 @@ module.exports = {
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
         'max-len': ['error', 100],
-        'camelcase': ['error', { properties: 'never' }],
+        'camelcase': ['error'],
         'eqeqeq': ['error', 'always'],
         'strict': ['error', 'safe'],
         'new-cap': ['error'],
