@@ -4,14 +4,13 @@ module.exports = {
         'es6': true,
         'node': true,
         'mocha': true,
-        'mongo': true,
-        'commonjs': true,
-        'protractor': true,
-        'jasmine': true
+        'mongo': true
     },
-    'parser': 'babel-eslint',
     'parserOption': {
-        'ecmaVersion': 6
+        'ecmaVersion': 6,
+        'ecmaFeatures': {
+            'globalReturn': true
+        }
     },
     'extends': 'eslint:recommended',
     'rules': {
@@ -22,7 +21,7 @@ module.exports = {
         'max-len': ['error', 100],
         'camelcase': ['error', { properties: 'never' }],
         'eqeqeq': ['error', 'always'],
-        'strict': ['error', 'global'],
+        'strict': ['error', 'safe'],
         'new-cap': ['error'],
         'no-bitwise': ['error'],
         'no-caller': ['error'],
@@ -43,12 +42,13 @@ module.exports = {
         'no-undef': ['error'],
         'no-unused-vars': ['error', { 'vars': 'all', 'varsIgnorePattern': '[$rootScope]' }],
         'no-with': ['error'],
-        'vars-on-top': ['error'],
         'no-inner-declarations': ['warn'],
         'vars-on-top': ['warn'],
         'object-curly-spacing': ['error', 'always'],
         'valid-typeof': ['error'],
-        'keyword-spacing': ['error', { 'before': true, 'after': true }]
+        'keyword-spacing': ['error', { 'before': true, 'after': true }],
+        'no-console': ['warn'],
+        'eol-last': ['error']
     },
     'globals': {
         'define': false,
@@ -62,8 +62,6 @@ module.exports = {
         'afterEach': false,
         'it': false,
         'inject': false,
-        'expect': false,
-        'spyOn': false,
-        'angular': false
+        'expect': false
     }
 };

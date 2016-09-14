@@ -19,7 +19,7 @@
     "eslintconfig"
   ],
   "license": "MIT",
-  "main": "eslintrc.js",
+  "main": "index.js",
   "peerDependencies": {
     "babel-eslint": "^6.1.2",
     "eslint": "^3.5.0"
