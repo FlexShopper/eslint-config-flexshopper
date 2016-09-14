@@ -23,7 +23,7 @@ module.exports = {
         'eqeqeq': ['error', 'always'],
         'strict': ['error', 'safe'],
         'new-cap': ['error'],
-        'no-bitwise': ['error'],
+        'no-bitwise': ['warn'],
         'no-caller': ['error'],
         'no-cond-assign': ['error', 'except-parens'],
         'no-debugger': ['error'],
