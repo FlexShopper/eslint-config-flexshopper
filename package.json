@@ -1,7 +1,7 @@
 {
   "name": "@flexshopper/eslint-config-flexshopper",
   "description": "ESLint FlexShopper configuration",
-  "version": "5.0.0-0",
+  "version": "5.0.0",
   "author": "Italo A. Casas <italo.casas@flexshopper.com>",
   "bugs": {
     "url": "https://github.com/flexshopper/eslint-config-flexshopper/issues"
@@ -11,7 +11,11 @@
     "eslint": "^3.5.0"
   },
   "devDependencies": {
-    "fixpack": "^2.3.1"
+    "fixpack": "^2.3.1",
+    "pre-commit": "^1.1.3"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
   },
   "homepage": "https://github.com/flexshopper/eslint-config-flexshopper#readme",
   "keywords": [
@@ -24,11 +28,18 @@
     "babel-eslint": "^6.1.2",
     "eslint": "^3.5.0"
   },
+  "pre-commit": [
+    "precommit-msg",
+    "fix",
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flexshopper/eslint-config-flexshopper.git"
   },
   "scripts": {
-    "fix": "fixpack"
+    "fix": "fixpack",
+    "lint": "eslint --ignore-path .gitignore --fix .",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
   }
 }

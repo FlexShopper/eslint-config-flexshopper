@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
     'extends': './index.js',
     'env': {
@@ -5,18 +7,15 @@ module.exports = {
         'jasmine': true,
         'commonjs': true
     },
-    'globals': {
-        'angular': true,
-    },
     'rules': {
         'strict': ['off']
     },
     'parser': 'babel-eslint',
-    "parserOptions": {
-        "ecmaVersion": 6
+    'parserOptions': {
+        'ecmaVersion': 6
     },
     'globals': {
         'spyOn': false,
         'angular': false
     }
-}
+};
