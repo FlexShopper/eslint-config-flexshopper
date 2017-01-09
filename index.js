@@ -48,7 +48,6 @@ module.exports = {
         'object-curly-spacing': ['error', 'always'],
         'valid-typeof': ['error'],
         'keyword-spacing': ['error', { 'before': true, 'after': true }],
-        'no-console': ['warn'],
         'eol-last': ['error']
     },
     'globals': {
