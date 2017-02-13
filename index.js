@@ -16,7 +16,7 @@ module.exports = {
     },
     'extends': 'eslint:recommended',
     'rules': {
-        'indent': [ 'error', 4],
+        'indent': [ 'error', 4, { 'MemberExpression': 1 }],
         'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
