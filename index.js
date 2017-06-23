@@ -8,7 +8,7 @@ module.exports = {
         'mocha': true,
         'mongo': true
     },
-    'parserOption': {
+    'parserOptions': {
         'ecmaVersion': 6,
         'ecmaFeatures': {
             'globalReturn': true
