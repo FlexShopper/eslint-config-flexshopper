@@ -36,5 +36,6 @@ module.exports = {
             exports: 'always-multiline',
             functions: 'never',
         }],
+        'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     },
 };
