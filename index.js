@@ -1,7 +1,10 @@
 'use strict';
 
 module.exports = {
-    extends: 'airbnb-base',
+    plugins: ['promise'],
+
+    extends: ['airbnb-base', 'plugin:promise/recommended'],
+
     env: {
         browser: true,
         es6: true,
@@ -19,6 +22,7 @@ module.exports = {
             globalReturn: true,
         },
     },
+
     rules: {
         indent: ['error', 4],
         'max-len': ['error', 120],

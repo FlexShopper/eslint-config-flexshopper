@@ -10,7 +10,8 @@
     "babel-eslint": "7.2.3",
     "eslint": "3.19.0",
     "eslint-config-airbnb-base": "11.2.0",
-    "eslint-plugin-import": "2.6.1"
+    "eslint-plugin-import": "2.6.1",
+    "eslint-plugin-promise": "^3.6.0"
   },
   "devDependencies": {
     "fixpack": "^2.3.1",
