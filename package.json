@@ -11,7 +11,11 @@
     "eslint": "3.19.0",
     "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.6.1",
-    "eslint-plugin-promise": "3.6.0"
+    "eslint-plugin-jest": "^21.12.3",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-react": "7.4.0"
   },
   "devDependencies": {
     "fixpack": "^2.3.1",
