@@ -3,12 +3,12 @@
 module.exports = {
     extends: [
         'plugin:react/recommended',
-        'plugin:jsx-a11y/recommended'
+        'plugin:jsx-a11y/recommended',
     ],
     plugins: ['react', 'jsx-a11y'],
     env: {
         browser: true,
-        es6: true
+        es6: true,
     },
     globals: {
         Promise: false,
@@ -19,8 +19,8 @@ module.exports = {
         ecmaFeatures: {
             sourceType: 'module',
             impliedStrict: false,
-            globalReturn: true
-        }
+            globalReturn: true,
+        },
     },
     rules: {
         'react/jsx-indent': ['error', 4],
@@ -28,6 +28,6 @@ module.exports = {
         'jsx-a11y/label-has-for': 0,
         'node/no-unsupported-features': 0,
         'jsx-a11y/no-static-element-interactions': 0,
-        'jsx-a11y/click-events-have-key-events': 0
-    }
+        'jsx-a11y/click-events-have-key-events': 0,
+    },
 };

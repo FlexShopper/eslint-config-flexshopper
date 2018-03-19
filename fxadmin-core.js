@@ -4,12 +4,12 @@ module.exports = {
     extends: [
         './index.js',
         'plugin:node/recommended',
-        'plugin:jest/recommended'
+        'plugin:jest/recommended',
     ],
     plugins: [
         'node',
         'promise',
-        'jest'
+        'jest',
     ],
     env: {
         jest: true,
