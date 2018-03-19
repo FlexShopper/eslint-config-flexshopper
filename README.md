@@ -34,6 +34,20 @@
 }
 ```
 
+### FxAdmin (Flexshopper Admin)
+Client Side
+```json
+"eslintConfig": {
+    "extends": "@flexshopper/flexshopper/fxadmin-web"
+}
+```
+Server Side
+```json
+"eslintConfig": {
+    "extends": "@flexshopper/flexshopper/fxadmin-core"
+}
+```
+
 ### License
 
 (The MIT License)
