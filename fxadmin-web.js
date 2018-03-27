@@ -30,5 +30,15 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 0,
         'jsx-a11y/click-events-have-key-events': 0,
         'jsx-a11y/href-no-hash': 0,
+        'import/no-unresolved': [2, {
+            ignore: [
+                'react',
+                'react-redux',
+                'prop-types',
+                '^@flexshopper/fxa-',
+                '^material-ui',
+            ],
+        }],
+        'import/extensions': 0,
     },
 };
