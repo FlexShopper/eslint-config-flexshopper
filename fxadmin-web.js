@@ -35,6 +35,7 @@ module.exports = {
                 'react',
                 'react-redux',
                 'prop-types',
+                'reselect',
                 '^@flexshopper/fxa-',
                 '^material-ui',
             ],
