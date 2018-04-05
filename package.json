@@ -1,7 +1,7 @@
 {
   "name": "@flexshopper/eslint-config-flexshopper",
   "description": "ESLint FlexShopper configuration",
-  "version": "6.2.3",
+  "version": "6.2.4",
   "author": "Italo A. Casas <italo.casas@flexshopper.com>",
   "bugs": {
     "url": "https://github.com/flexshopper/eslint-config-flexshopper/issues"
