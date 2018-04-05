@@ -12,6 +12,8 @@ module.exports = {
     },
     globals: {
         Promise: false,
+        testUtils: false,
+        clientTestUtils: false,
     },
     parserOptions: {
         ecmaVersion: 6,

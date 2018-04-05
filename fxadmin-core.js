@@ -16,6 +16,11 @@ module.exports = {
         es6: true,
         node: true,
     },
+    globals: {
+        Promise: false,
+        testUtils: false,
+        serverTestUtils: false,
+    },
     rules: {
         'padding-line-between-statements': [
             'error',
