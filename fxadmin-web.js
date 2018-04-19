@@ -14,6 +14,8 @@ module.exports = {
         Promise: false,
         testUtils: false,
         clientTestUtils: false,
+        enzyme: false,
+        shallow: false,
     },
     parserOptions: {
         ecmaVersion: 6,
